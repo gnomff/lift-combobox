@@ -15,7 +15,7 @@ scalacOptions in (Compile, doc) ++= Seq(
    "-doc-title", "Lift ComboBox Module 2.5-RC-0.6"
 )
 
-docDirectory in Compile <<= (baseDirectory / "api")
+//docDirectory in Compile <<= (baseDirectory / "api")
 
 libraryDependencies ++= Seq(
   "net.liftweb" %% "lift-webkit" % "2.5-RC2",
